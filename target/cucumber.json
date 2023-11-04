@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can not create account successfully",
+        "description": "",
+        "id": "this-is-a-feature-for-creating-account-unsuccessfully;verify-user-can-not-create-account-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2612054300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \u003c\"URL\"\u003e Ban",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Banana_Login.open_Ban(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 802153800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click sign in ban",
+            "match": {
+              "location": "Banana_Login.click_sign_in_ban()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2618392100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click create account ban",
+            "match": {
+              "location": "Banana_Login.click_create_account_ban()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15656414300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter invalid email firstname lastname phone number enter inv password",
+            "match": {
+              "location": "Banana_Login.enter_invalid_email_firstname_lastname_phone_number_enter_inv_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119559900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click create account",
+            "match": {
+              "location": "Banana_Login.click_create_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3281070400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user can not create account successfully",
+            "match": {
+              "location": "Banana_Login.verify_user_can_not_create_account_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for creating account unsuccessfully",
+    "description": "",
+    "id": "this-is-a-feature-for-creating-account-unsuccessfully",
+    "keyword": "Feature",
+    "uri": "Banana_Login.feature"
+  }
+]
